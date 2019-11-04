@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'admin/css/base.css' %}" />
+    <title>{% block title %}My Fuck'in Site{% endblock %}</title>
+</head>
+
+<body>
+    <div id="sidebat">
+        {% block sidebar %}
+        <ul>
+            <li><a href="/">Project_Home</a></li>
+            <li><a href="/admin/">Admin</a></li>
+        </ul>
+        {% endblock %}
+        <br>
+    </div>
+
+    <div id="context">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

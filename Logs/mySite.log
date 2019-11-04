@@ -1,0 +1,3 @@
+[28/Oct/2019 11:34:53] DEBUG [django.utils.autoreload:354] File C:\Users\C0mm4\Desktop\Django_Workspace\polls_C0mm4\config\settings.py previous mtime: 1572230002.3423839, current mtime: 1572230092.0452847
+[28/Oct/2019 11:34:53] DEBUG [django.utils.autoreload:328] C:\Users\C0mm4\Desktop\Django_Workspace\polls_C0mm4\config\settings.py notified as changed. Signal results: [(<function translation_file_changed at 0x032DBA98>, None)].
+[28/Oct/2019 11:34:53] INFO [django.utils.autoreload:217] C:\Users\C0mm4\Desktop\Django_Workspace\polls_C0mm4\config\settings.py changed, reloading.
